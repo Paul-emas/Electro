@@ -1,0 +1,272 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .slideshow_container .bg1 {
+    height: 55vw;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .slideshow_container {
+    top: 60px;
+  }
+  .bg2 {
+    top: 0;
+    float: right;
+    right: 0;
+    animation-name: bg3;
+    animation-duration: 5s;
+    height: 100%;
+    animation-delay: 2s;
+  }
+  @keyframes bg3 {
+    0% {
+      left: 150%;
+    }
+    20% {
+      opacity: 1;
+      left: 50%;
+    }
+    25% {
+      left: 50%;
+    }
+    50% {
+      left: 50%;
+      opacity: 1;
+    }
+    100% {
+      left: 150%;
+    }
+  }
+  .slide_img2 {
+    left: 50%;
+    top: 2rem;
+    animation-name: bg5;
+    animation-duration: 3.5s;
+    animation-delay: 5s;
+  }
+  @keyframes bg5 {
+    0% {
+      top: 100%;
+    }
+    20% {
+      top: 2rem;
+      opacity: 1;
+    }
+    25% {
+      top: 2rem;
+    }
+    50% {
+      top: 2rem;
+      opacity: 1;
+    }
+    100% {
+      top: 100%;
+    }
+  }
+  .slide_img3 {
+    top: 100%;
+    animation-name: bg6;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+  }
+  @keyframes bg6 {
+    0% {
+      top: -100%;
+    }
+    20% {
+      top: 0;
+      opacity: 1;
+    }
+    25% {
+      top: 0;
+    }
+    50% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      top: 0;
+    }
+  }
+  .slider_content1 {
+    top: 0;
+    left: 5%;
+    line-height: 1;
+  }
+  .slider_content1 h1 {
+    width: 50%;
+    font-size: 5vw;
+  }
+  .slider_content1 p {
+    font-weight: bold;
+    color: #3bf;
+    font-size: 2.2vw;
+  }
+  .price1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 6vw;
+    color: #000;
+  }
+  .buy_btn1 a {
+    position: relative;
+    top: 8vw;
+    display: block;
+    background: #ffcc00;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 900px) {
+  .slideshow_container .bg1 {
+    height: 47vw;
+  }
+  .bg2 {
+    top: -5vw;
+    height: 57vw;
+  }
+  .slide_img2 {
+    top: 2rem;
+  }
+  .buy_btn1 a {
+    display: block;
+    padding: 8px 20px 8px 20px;
+    top: 8vw;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .slideshow_container .bg1 {
+    height: 40vw;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .bg1 {
+    height: 68vh;
+  }
+  .bg2 {
+    height: 140%;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    -webkit-animation-name: bg7;
+    animation-name: bg7;
+  }
+  @keyframes bg7 {
+    0% {
+      right: -100%;
+    }
+    20% {
+      opacity: 1;
+      right: 10%;
+    }
+    25% {
+      right: 10%;
+    }
+    50% {
+      right: 10%;
+      opacity: 1;
+    }
+    100% {
+      right: -100%;
+    }
+  }
+  .slide_img2 {
+    top: 100%;
+    margin-right: 20rem;
+    animation-name: bg8;
+    animation-duration: 3.5s;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+  }
+  @keyframes bg8 {
+    0% {
+      top: 100%;
+    }
+    20% {
+      opacity: 1;
+      top: 2rem;
+    }
+    25% {
+      top: 2rem;
+    }
+    50% {
+      top: 2rem;
+      opacity: 1;
+    }
+    100% {
+      top: 100%;
+    }
+  }
+  .slide_img3 {
+    right: 15%;
+    height: 150%;
+    top: 100%;
+    animation-name: bg9;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+  }
+  @keyframes bg9 {
+    0% {
+      top: -100%;
+    }
+    20% {
+      top: 0;
+      opacity: 1;
+    }
+    25% {
+      top: 0;
+    }
+    50% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      top: 0;
+    }
+  }
+  .content1 {
+    position: relative;
+    top: 5rem;
+    left: -8rem;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .slider_content1 h1 {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 55px;
+    padding-bottom: 1rem;
+  }
+  .slider_content1 p {
+    margin-left: 3rem;
+    font-weight: bold;
+    color: #3bf;
+    font-size: 16px;
+  }
+  .price1 {
+    position: relative;
+    top: 10px;
+    left: -5rem;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 3rem;
+    color: #000;
+  }
+  .buy_btn1 a {
+    position: relative;
+    margin-left: 3rem;
+    top: 60px;
+    padding: 10px 50px 10px 50px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #ffcc00;
+    color: #2d2d2d;
+  }
+}

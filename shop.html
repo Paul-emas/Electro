@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- External Link  -->
+  <link rel="stylesheet" href="assests/css/styles.css">
+  <link rel="stylesheet" href="assests/css/responsive.css">
+  <!-- Link for W3SCHOOL -->
+  <link rel="stylesheet" href="../lib/w3.css">
+  <!-- Link for fontawesome  -->
+  <link rel="stylesheet" href="fontawesome\css\all.css">
+  <!-- Link for Slideshow -->
+  <link rel="stylesheet" href="slideshow\assets\css\slider.css">
+  <link rel="stylesheet" href="slideshow\assets\css\slider-reponsive.css">
+  <!--Link for Font Family -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
+  <!--Link for bootstrap  -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <!-- script for bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <!-- Link for Aniview  -->
+  <link rel="stylesheet" href="assests\css\animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/jquery-aniview@1.0.1/dist/jquery.aniview.js">
+  <script src="jquery-aniview-master\dist\jquery.aniview.js" charset="utf-8"></script>
+  <script src="jquery.2.3.js" charset="utf-8"></script>
+  <!-- External script -->
+  <script src="java.js" charset="utf-8"></script>
+  <script src="assests\tab.js" charset="utf-8"></script>
+  <script src="jquery.2.2.js " charset="utf-8"></script>
+  <script src="jquery.2.4.js" charset="utf-8"></script>
+  <!-- Link for Flickity -->
+  <link rel="stylesheet" href="flickity/flickity.css" media="screen">
+  <script src="flickity/flickity.pkgd.min.js" charset="utf-8"></script>
+  <script src="flickity/jquery.js" charset="utf-8"></script>
+  <!-- Animated Lettering -->
+  <script src="jquery.js" charset="utf-8"></script>
+  <script src="jquery-1.10.2.min.js" charset="utf-8"></script>
+  <script src="animateText.min.js" charset="utf-8"></script>
+  <title>Electro</title>
+</head>
+
+<body>
+  <div class="main_index">
+    <div class="sidebar navbar-fixed-top" id="mySidebar">
+      <div class="sb_bg">
+        <img src="images/sb_bg.jpeg" alt="">
+        <div class="sb_logo"><span>e</span>l<span>e</span>c<span>t</span>r<span>o</span>.com</div>
+      </div>
+      <div class="sb_icons">
+        <a href=""><i class="fal fa-download"></i></a>
+        <a href=""><i class="fab fa-flipboard"></i></a>
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fal fa-envelope-open-text"></i></a>
+      </div>
+
+      <div class="sb_nav">
+        <ul>
+          <li><a href=""><i class="fa fa-angle-down"></i> TV's & Audios</a></li>
+          <li><a href=""><i class="fa fa-angle-down"></i> Smartphones</a></li>
+          <li><a href=""><i class="fa fa-angle-down"></i> Laptops & Desktops</a></li>
+          <li><a href=""><i class="fa fa-angle-down"></i> Gadgets</a></li>
+          <li><a href=""><i class="fa fa-angle-down"></i> GPS and Cars</a></li>
+          <li><a href=""><i class="fa fa-angle-down"></i> Cameras & Accessories</a></li>
+          <li><a href=""><i class="fa fa-angle-down"></i> Movies & Videos</a></li>
+        </ul>
+      </div>
+
+      <!-- Smaller screen top Navigation -->
+      <div class="sm_topnav navbar-fixed-top">
+        <div class="sm_toggle">
+          <i class="fal fa-bars" id="openBtn2" onclick="openSidebar()"></i>
+          <i class="fal fa-times" id="closeBtn2" onclick="closeSidebar()"></i>
+        </div>
+        <div class="sm_logo">electro</div>
+        <div class="box2"></div>
+        <div class="sm_topnav_icons">
+          <i id="sm_search_btn" class="fal fa-search" onclick="openSearch()"></i>
+          <i class="fal fa-user"></i>
+          <i class="fal fa-shopping-cart"></i>
+        </div>
+        <form id="sm_search_container" class="sm_search_container" action="index.html" method="post">
+          <input type="text" name="" placeholder="Search in electro.....">
+          <i class="fal fa-search"></i>
+        </form>
+        <div id="closeSearch" class="closeSearch" onclick="closeSearch()"></div>
+      </div>
+    </div>
+
+    <div class="main_content">
+
+
+      <div class="container-fluid">
+
+        <div class="top_content">
+          <div class="top_nav_container">
+            <div class="top_caption">Welcome to Worldwide Electronics Store</div>
+            <div class="top_nav_mini_nav">
+              <ul>
+                <li><a href=""><i class="fal fa-map-marker-alt"></i> Store Locator</a><span>|</span></li>
+                <li><a href=""><i class="fal fa-truck"></i> Track your order</a><span>|</span></li>
+                <li><a href="shop.html"><i class="fal fa-shopping-bag"></i> Shop</a><span>|</span></li>
+                <li><a href=""><i class="fal fa-user"></i> My account</a><span>|</span></li>
+                <li><a href=""><i class="fa fa-"></i> Switch to RTL</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Second Navigation bar  -->
+          <div class="sec_navbar navbar-fixed-top" id="navbar">
+            <div class="row">
+              <div class="col-md-3 sec_content">
+                <h2 class="logo"><a href="">electro <div class="box"></div></a></h2>
+              </div>
+              <div class="col-md-6 sec_content">
+                <form class="search_container" action="index.html" method="post">
+                  <div class="input_container">
+                    <input type="text" name="" placeholder="Search for Products">
+                    <div class="dropdown sec_content_dropdown">
+                      <div class="sec_content_dropdown dropdown-toggle" data-toggle="dropdown">All Categories
+                        <span class="caret"></span></div>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Home Entertainment</a></li>
+                        <li><a href="#">Cameras and Photography</a></li>
+                        <li><a href="#">Computer Components</a></li>
+                        <li><a href="#">Gadgets</a></li>
+                        <li><a href="#">Laptops & Computers</a></li>
+                        <li><a href="#">Printers & Ink</a></li>
+                        <li><a href="#">Smartphones and Tablets</a></li>
+                        <li><a href="#">TV's and Audio</a></li>
+                        <li><a href="#">Game Consoles</a></li>
+                      </ul>
+                    </div>
+                    <a href=""><i class="fa fa-search search_btn"></i></a>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-3 sec_content">
+                <div class="sec_left">
+                  <i class="fal fa-user-headset"></i>
+                  <p><b>Support:</b> (+234) 8107 8828 25</p>
+                  <p><b>Contact Us:</b> electro@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec_navbar">
+          <div class="row">
+            <div class="col-md-3 sec_content">
+              <h2 class="logo"><a href="">electro <div class="box"></div></a></h2>
+            </div>
+            <div class="col-md-6 sec_content">
+              <div class="icon_container">
+                <i class="fal fa-bars" id="openBtn" onclick="openSidebar()"></i>
+                <i class="fal fa-times" id="closeBtn" onclick="closeSidebar()"></i>
+              </div>
+              <form class="search_container" action="index.html" method="post">
+                <div class="input_container">
+                  <input type="text" name="" placeholder="Search for Products">
+                  <div class="dropdown sec_content_dropdown">
+                    <div class="sec_content_dropdown dropdown-toggle" data-toggle="dropdown">All Categories
+                      <span class="caret"></span></div>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Accessories</a></li>
+                      <li><a href="#">Home Entertainment</a></li>
+                      <li><a href="#">Cameras and Photography</a></li>
+                      <li><a href="#">Computer Components</a></li>
+                      <li><a href="#">Gadgets</a></li>
+                      <li><a href="#">Laptops & Computers</a></li>
+                      <li><a href="#">Printers & Ink</a></li>
+                      <li><a href="#">Smartphones and Tablets</a></li>
+                      <li><a href="#">TV's and Audio</a></li>
+                      <li><a href="#">Game Consoles</a></li>
+                    </ul>
+                  </div>
+                  <a href=""><i class="fa fa-search search_btn"></i></a>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-3 sec_content">
+              <div class="sec_left">
+                <i class="fal fa-user-headset"></i>
+                <p><b>Support:</b> (+234) 8107 8828 25</p>
+                <p><b>Contact Us:</b> electro@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Main top Navigation -->
+      <div class="main_nav">
+        <div class="main_nav_container">
+          <div class="main_nav_items">
+            <div class="dropdown1">
+              <a href="">Home</a>
+              <div class="dropdown2">
+                <a href="">TV & Audio's <i class="fa fa-angle-down"></i></a>
+                <div class="main_nav_dropdowns dropdown2_item">
+                  <div class="row dropdown_context">
+                    <div class="list">
+                      <b>Television</b>
+                      <ul>
+                        <li><a href="">Smart TVs</a></li>
+                        <li><a href="">4K TVs</a></li>
+                        <li><a href="">Full HD TVs</a></li>
+                        <li><a href="">Large Screen TVs</a></li>
+                        <li><a href="">32 inch TVs</a></li>
+                        <li><a href="">39-43 inch TV</a></li>
+                        <li><a href="">48 & Above</a></li>
+                      </ul>
+                    </div>
+                    <div class="list">
+                      <b>Shop By Brand</b>
+                      <ul>
+                        <li><a href="">VU</a></li>
+                        <li><a href="">Mi LED Smart TVs</a></li>
+                        <li><a href="">Samsung</a></li>
+                        <li><a href="">Panasonic</a></li>
+                        <li><a href="">TCL</a></li>
+                        <li><a href="">Sanyo</a></li>
+                        <li><a href="">Micromax</a></li>
+                      </ul>
+                    </div>
+                    <div class="list">
+                      <b>Other Home Entertainment</b>
+                      <ul>
+                        <li><a href="">Home Theater Systems</a></li>
+                        <li><a href="">Projectors & Accessoires</a></li>
+                        <li><a href="">Set top Boxes</a></li>
+                        <li><a href="">Streaming Media Players</a></li>
+                        <li><a href="">DVD & Blu-ray Players</a></li>
+                        <li><a href="">Cables</a></li>
+                        <li><a href="">Audio-video Accessories</a></li>
+                      </ul>
+                    </div>
+                    <div class="list list1">
+                      <img src="images/megamenu-image1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="row dropdown_context">
+                    <div class="list">
+                      <b>Home Audio/Video</b>
+                      <ul>
+                        <li><a href=""> Speakers</a></li>
+                        <li><a href="">Home Theaters</a></li>
+                        <li><a href="">Projectors</a></li>
+                        <li><a href="">Headphones</a></li>
+                        <li><a href="">Noise Cancelling Headphones</a></li>
+                        <li><a href="">Soundbars</a></li>
+                        <li><a href=""> Headphones with Mic</a></li>
+                      </ul>
+                    </div>
+                    <div class="list">
+                      <b>Shop By Brand</b>
+                      <ul>
+                        <li><a href="">JBL</a></li>
+                        <li><a href="">Sony</a></li>
+                        <li><a href="">Ultimate ears</a></li>
+                        <li><a href="">Philips</a></li>
+                        <li><a href="">Protronics</a></li>
+                        <li><a href="">Saregama</a></li>
+                        <li><a href="">Harmon Kardon</a></li>
+                      </ul>
+                    </div>
+                    <div class="list">
+                      <b>Other Home Entertainment</b>
+                      <ul>
+                        <li><a href="">Below Rs. 100$</a></li>
+                        <li><a href="">101$ - 199$</a></li>
+                        <li><a href="">200$ - 299$</a></li>
+                        <li><a href="">300$ - 399$</a></li>
+                        <li><a href="">400$ - 499$</a></li>
+                        <li><a href="">500$ - 599$</a></li>
+                        <li><a href="">600$ and Above</a></li>
+                      </ul>
+                    </div>
+                    <div class="list list1">
+                      <img src="images/megamenu-image2.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown3">
+              <a href="">Smart phones <i class="fa fa-angle-down"></i></a>
+              <div class="main_nav_dropdowns dropdown3_item">
+                <div class="row dropdown_context">
+                  <div class="col-md-2 list">
+                    <b>Accessories</b>
+                    <ul>
+                      <li><a href="">Headsets</a></li>
+                      <li><a href="">Cables & Chargers</a></li>
+                      <li><a href="">Electronic Accessories</a></li>
+                      <li><a href="">Selfie Sticks</a></li>
+                      <li><a href="">Internal Batteries</a></li>
+                    </ul>
+                    <b>Cases & Covers</b>
+                    <ul>
+                      <li><a href="">For iPhone X</a></li>
+                      <li><a href="">For Samsung S9</a></li>
+                      <li><a href="">Below AED 59</a></li>
+                      <li><a href="">For Xiaomi</a></li>
+                      <li><a href="">For iPhone 7</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2 list">
+                    <b>Tablets</b>
+                    <ul>
+                      <li><a href="">iPads</a></li>
+                      <li><a href="">Samsung</a></li>
+                      <li><a href="">Microsoft</a></li>
+                      <li><a href="">Tecno</a></li>
+                      <li><a href="">Lenovo</a></li>
+                    </ul>
+                    <b>Shop By Price</b>
+                    <ul>
+                      <li><a href="">For iPhone X</a></li>
+                      <li><a href="">For Samsung S9</a></li>
+                      <li><a href="">Below AED 59</a></li>
+                      <li><a href="">For Xiaomi</a></li>
+                      <li><a href="">For iPhone 7</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2 list">
+                    <b>Mobiles</b>
+                    <ul>
+                      <li><a href="">Samsung</a></li>
+                      <li><a href="">Lenovo</a></li>
+                      <li><a href="">Mi</a></li>
+                      <li><a href="">Motorola</a></li>
+                      <li><a href="">Oppo</a></li>
+                      <li><a href="">Panasonic</a></li>
+                      <li><a href="">HTC</a></li>
+                      <li><a href="">Blackberry</a></li>
+                      <li><a href="">LG</a></li>
+                      <li><a href="">Micromax</a></li>
+                      <li><a href="">Nokia</a></li>
+                      <li><a href="">Huawei</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2 list">
+                    <b>Trending</b>
+                    <ul>
+                      <li><a href="">Oppo</a></li>
+                      <li><a href="">Panasonic</a></li>
+                      <li><a href="">Samsung</a></li>
+                      <li><a href="">Lenovo</a></li>
+                      <li><a href="">Mi</a></li>
+                      <li><a href="">Motorola</a></li>
+                      <li><a href="">Nokia</a></li>
+                      <li><a href="">Huawei</a></li>
+                      <li><a href="">HTC</a></li>
+                      <li><a href="">Blackberry</a></li>
+                      <li><a href="">LG</a></li>
+                      <li><a href="">Micromax</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 list">
+                    <img src="images\smartphones.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown4">
+            <a href="">Laptops & Desktops <i class="fa fa-angle-down"></i></a>
+            <div class="main_nav_dropdowns dropdown4_item">
+              <div class="row dropdown_context">
+                <div class="list col-md-2">
+                  <b>Laptop</b>
+                  <ul>
+                    <li><a href="">Thin & Light Laptops</a></li>
+                    <li><a href="">2-in-1 Laptops</a></li>
+                    <li><a href="">Gaming Laptops</a></li>
+                    <li><a href="">Budget Laptops</a></li>
+                    <li><a href="">Business Laptops</a></li>
+                  </ul>
+                  <b>Shop By Brand</b>
+                  <ul>
+                    <li><a href="">Apple</a></li>
+                    <li><a href="">HP</a></li>
+                    <li><a href="">Dell</a></li>
+                    <li><a href="">Lenovo</a></li>
+                    <li><a href="">Acer</a></li>
+                  </ul>
+                </div>
+                <div class="list col-md-2">
+                  <b>Tablets</b>
+                  <ul>
+                    <li><a href="">Lenovo</a></li>
+                    <li><a href="">Apple</a></li>
+                    <li><a href="">Samsung</a></li>
+                    <li><a href="">Micromax</a></li>
+                    <li><a href="">iBall</a></li>
+                  </ul>
+                  <b>PC Accessories</b>
+                  <ul>
+                    <li><a href="">Keyboards</a></li>
+                    <li><a href="">Mice</a></li>
+                    <li><a href="">Laptop Bags</a></li>
+                    <li><a href="">PC Speakers</a></li>
+                    <li><a href=""> Batteries</a></li>
+                  </ul>
+                </div>
+                <div class="list col-md-2">
+                  <b>Processsors</b>
+                  <ul>
+                    <li><a href="">Intel</a></li>
+                    <li><a href="">AMD</a></li>
+                    <li><a href="">Qualcomm</a></li>
+                    <li><a href="">IBM</a></li>
+                    <li><a href="">Motorola</a></li>
+                  </ul>
+                  <b>Shop By Price</b>
+                  <ul>
+                    <li><a href=""> Below Rs. 500$</a></li>
+                    <li><a href="">500$ - 699$</a></li>
+                    <li><a href="">700$ - 799$</a></li>
+                    <li><a href="">800$ - 899$</a></li>
+                    <li><a href="">900$ and Above</a></li>
+                  </ul>
+                </div>
+                <div class="list col-md-2">
+                  <b>Best Processors</b>
+                  <ul>
+                    <li><a href="">Intel Core i9-7980XE</a></li>
+                    <li><a href="">AMD Ryzen Threadripper 1950X</a></li>
+                    <li><a href="">AMD Ryzen 5 1600X</a></li>
+                    <li><a href="">Intel Core i7-8700K</a></li>
+                    <li><a href="">AMD Ryzen 7 1800X</a></li>
+                    <li><a href="">Intel Core i5-7600K</a></li>
+                    <li><a href="">AMD Ryzen 3 1300X</a></li>
+                    <li><a href="">Intel Core i7-7820X</a></li>
+                    <li><a href="">Intel Core i5-7600K</a></li>
+                    <li><a href="">AMD Ryzen 4 1100X</a></li>
+                    <li><a href="">Intel Core i3-7280K</a></li>
+                  </ul>
+                </div>
+                <div class="list col-md-4">
+                  <img src="images/megamenu-image2-1.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown5">
+            <a href="">Gadgets <i class="fa fa-angle-down"></i></a>
+            <div class="main_nav_dropdowns dropdown5_item">
+              <div class="row">
+                <div class="col-md-2 list2">
+                  <img src="images\DesktopPc-1-300x275.jpg" alt="">
+                </div>
+                <div class="col-md-2 list">
+                  <b>Computers & Accessories</b>
+                  <ul>
+                    <li><a href="">Laptops, Desktops & Monitors</a></li>
+                    <li><a href="">Networking & Internet Devices</a></li>
+                    <li><a href="">Computer Accessories</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2 list2">
+                  <img src="images\megamenu-image8-300x275.jpg" alt="">
+                </div>
+                <div class="col-md-2 list">
+                  <b>Cameras</b>
+                  <ul>
+                    <li><a href="">DSLR</a></li>
+                    <li><a href="">Lenses</a></li>
+                    <li><a href="">Security & Surveillance</a></li>
+                    <li><a href="">Binoculars & Telescopes</a></li>
+                    <li><a href="">Camcorders</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2 list2">
+                  <img src="images\megamenu-image9-300x275.jpg" alt="">
+                </div>
+                <div class="col-md-2 list">
+                  <b>Accessories</b>
+                  <ul>
+                    <li><a href="">Mouses</a></li>
+                    <li><a href="">Keyboards</a></li>
+                    <li><a href="">Hardrives</a></li>
+                    <li><a href="">Headphones</a></li>
+                    <li><a href="">Speakers</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2 list2">
+                  <img src="images\megamenu-image7-300x275.jpg" alt="">
+                </div>
+                <div class="col-md-2 list">
+                  <b>Peripherals</b>
+                  <ul>
+                    <li><a href="">Hard Drives</a></li>
+                    <li><a href="">Pen Drives & Memory Cards</a></li>
+                    <li><a href="">Printers & Ink Mouse</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2 list2">
+                  <img src="images\smartwatch3.png" alt="">
+                </div>
+                <div class="col-md-2 list">
+                  <b>Watches</b>
+                  <ul>
+                    <li><a href="">Men's Watches</a></li>
+                    <li><a href="">Women's Watches</a></li>
+                    <li><a href="">Premium Watches</a></li>
+                    <li><a href="">Kids Watches</a></li>
+                    <li><a href="">Deals on Watches</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2 list2">
+                  <img src="images\megamenu-image6-300x275.jpg" alt="">
+                </div>
+                <div class="col-md-2 list">
+                  <b>Gadgets</b>
+                  <ul>
+                    <li><a href="">Fire TV Stick</a></li>
+                    <li><a href="">Google Chromecast</a></li>
+                    <li><a href="">Set Top</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Deals ofthe day</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown6">
+            <a href="">GPS & Cars <i class="fa fa-angle-down"></i></a>
+            <div class="main_nav_dropdowns dropdown6_item">
+              <div class="col-md-2 list">
+                <b>Car Audios</b>
+                <ul>
+                  <li><a href="">Music Systems</a></li>
+                  <li><a href="">Video Systems</a></li>
+                  <li><a href="">Speakers</a></li>
+                  <li><a href="">Car Monitors</a></li>
+                  <li><a href="">Car Parts</a></li>
+                  <li><a href="">Monitoring Network</a></li>
+                  <li><a href="">Jammers Car Accessories</a></li>
+                  <li><a href="">Car Electronics</a></li>
+                  <li><a href="">All Audio</a></li>
+                  <li><a href="">Products</a></li>
+                  <li><a href="">Accessories</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 list">
+                <b>GPS & Accessories</b>
+                <ul>
+                  <li><a href="">Gps Tracking Devices</a></li>
+                  <li><a href="">GPS Networking Devices</a></li>
+                  <li><a href="">GPS Tracking Sensors</a></li>
+                  <li><a href="">GPS Monitoring</a></li>
+                  <li><a href="">GPS Jammers</a></li>
+                  <li><a href="">Gps Tracking Devices</a></li>
+                  <li><a href="">GPS Networking Devices</a></li>
+                  <li><a href="">GPS Tracking Sensors</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 list">
+                <b>Accessories & Parts</b>
+                <ul>
+                  <li><a href="">Car Accessories</a></li>
+                  <li><a href="">Car Electronics</a></li>
+                  <li><a href="">Car Parts</a></li>
+                  <li><a href="">Car & Bike</a></li>
+                  <li><a href="">Care All Car Products</a></li>
+                </ul>
+                <b></b>
+                <ul>
+                  <li><a href="">Below Rs. 100$</a></li>
+                  <li><a href="">101$ - 199$</a></li>
+                  <li><a href="">200$ - 299$</a></li>
+                  <li><a href="">300$ - 399$</a></li>
+                  <li><a href="">400$ and Above</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 list">
+                <b>Shop By Brand</b>
+                <ul>
+                  <li><a href="">Sony</a></li>
+                  <li><a href="">Pioneer</a></li>
+                  <li><a href="">JBL</a></li>
+                  <li><a href="">Kenwood Clarion</a></li>
+                  <li><a href="">Alpine</a></li>
+                  <li><a href="">Bang & Olufsen</a></li>
+                  <li><a href="">Blaupunkt</a></li>
+                  <li><a href="">Bose</a></li>
+                  <li><a href="">Boston</a></li>
+                  <li><a href="">Acoustics</a></li>
+                  <li><a href="">Infinity</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 list">
+                <img src="images\megamenu-image12.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="dropdown7">
+            <a href="">Cameras & Accessories <i class="fa fa-angle-down"></i></a>
+            <div class="main_nav_dropdowns dropdown7_item">
+              <div class="col-md-2 list">
+                <b>Cameras</b>
+                <ul>
+                  <li><a href="">DSLR Cameras</a></li>
+                  <li><a href="">Digital Cameras</a></li>
+                  <li><a href="">Security & Surveillance</a></li>
+                  <li><a href="">Camcorders</a></li>
+                  <li><a href="">Consoles</a></li>
+                </ul>
+                <b>Shop By Price</b>
+                <ul>
+                  <li><a href="">Below Rs. 100$</a></li>
+                  <li><a href="">101$ - 199$</a></li>
+                  <li><a href="">200$ - 299$</a></li>
+                  <li><a href="">300$ - 399$</a></li>
+                  <li><a href="">400$ and Above</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 list">
+                <b>Shop By Focal Length</b>
+                <ul>
+                  <li><a href="">8mm - 24mm</a></li>
+                  <li><a href="">24mm - 35mm</a></li>
+                  <li><a href="">35mm - 85mm</a></li>
+                  <li><a href="">85mm - 135mm</a></li>
+                  <li><a href="">135mm+</a></li>
+                </ul>
+                <b>Trending</b>
+                <ul>
+                  <li><a href="">Sony</a></li>
+                  <li><a href="">Nikon</a></li>
+                  <li><a href="">Canon</a></li>
+                  <li><a href="">Sanyo</a></li>
+                  <li><a href="">Samsung</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 list">
+                <b>Accessories</b>
+                <ul>
+                  <li><a href="">Headphones</a></li>
+                  <li><a href="">Mouses</a></li>
+                  <li><a href="">Hardrives</a></li>
+                  <li><a href="">Headphones</a></li>
+                  <li><a href="">Speakers</a></li>
+                </ul>
+                <b>Add-ons</b>
+                <ul>
+                  <li><a href="">Data Cables</a></li>
+                  <li><a href="">Keypads</a></li>
+                  <li><a href="">Lenses</a></li>
+                  <li><a href="">Cameras</a></li>
+                  <li><a href="">Earphones</a></li>
+                  <li><a href="">Accessories</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 list">
+                <b>Shop By Brands</b>
+                <ul>
+                  <li><a href="">Canon</a></li>
+                  <li><a href="">Nikon</a></li>
+                  <li><a href="">Pentax</a></li>
+                  <li><a href="">Sony</a></li>
+                  <li><a href="">Apple</a></li>
+                  <li><a href="">Leica</a></li>
+                  <li><a href="">Samsung</a></li>
+                  <li><a href="">Panasonic</a></li>
+                  <li><a href="">LG</a></li>
+                  <li><a href="">Oppo</a></li>
+                  <li><a href="">Olympus</a></li>
+                  <li><a href="">Sanyo</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 list">
+                <img src="images\camera.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="dropdown8">
+            <a href="">Movies & Videos <i class="fa fa-angle-down"></i></a>
+            <div class="main_nav_dropdowns dropdown8_item">
+              <div class="col-md-2 list2">
+                <img src="images\move-300x275.jpg" alt="">
+              </div>
+              <div class="col-md-2 list">
+                <b>Movies & TV Shows</b>
+                <ul>
+                  <li><a href="">All Movies & TV Shows</a></li>
+                  <li><a href="">Blu-ray</a></li>
+                  <li><a href="">Latest Movies</a></li>
+                  <li><a href="">All English</a></li>
+                  <li><a href="">All Hindi</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 list2">
+                <img src="images\megamenu-image11-300x275.jpg" alt="">
+              </div>
+              <div class="col-md-2 list">
+                <b>Games & Accessories</b>
+                <ul>
+                  <li><a href="">PC Games</a></li>
+                  <li><a href="">New Releases</a></li>
+                  <li><a href=""> Consoles</a></li>
+                  <li><a href="">Accessories</a></li>
+                  <li><a href="">Vitual Reality</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 list2">
+                <img src="images\4-300x275.jpg" alt="">
+              </div>
+              <div class="col-md-2 list">
+                <b>Music</b>
+                <ul>
+                  <li><a href="">5.1 Speaker</a></li>
+                  <li><a href="">Home Theatres</a></li>
+                  <li><a href="">Soundbars</a></li>
+                  <li><a href="">Accessories</a></li>
+                  <li><a href="">Consoles</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

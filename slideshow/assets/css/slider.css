@@ -1,0 +1,140 @@
+.slideshow_container {
+  position: relative;
+  right: 1.5rem;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.slideshow_container .bg1 {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.slider1 {
+  height: 100%;
+  /* animation-name: fadeout; */
+  animation-duration: 1s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  transition: all .5s ease;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    margin-left: -100%;
+  }
+}
+
+.bg2 {
+  position: absolute;
+  top: -7rem;
+  height: 80vh;
+  float: right;
+  right: 10rem;
+  animation-delay: 2s;
+  opacity: 0;
+  animation-name: bg2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  transition: all .5s ease;
+  opacity: 0;
+}
+
+@keyframes bg2 {
+  from {
+    opacity: 0;
+    right: -100%;
+  }
+  to {
+    opacity: 1;
+    right: 10%;
+  }
+}
+
+.slider_content1 {
+  position: absolute;
+}
+
+.content1 {
+  overflow: hidden;
+}
+
+.slider_content1 h1 {
+  font-weight: 100;
+  position: relative;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: all .5s ease;
+  opacity: 0;
+  animation-name: op1;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+@keyframes op1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+@keyframes rightToleft {
+  from {
+    left: 100%;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+.slider_content1 p {
+  font-family: 'Poppins';
+  position: relative;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: all .5s ease;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+@keyframes leftToright {
+  from {
+    left: -100%;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+.price1 {
+  animation-name: leftToright;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: all .5s ease;
+  opacity: 0;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.buy_btn1 a {
+  position: relative;
+  animation-name: rightToleft;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: all .5s ease;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  color: #2d2d2d;
+}
+
+.buy_btn1 a:hover {
+  text-decoration: none;
+  background: #e6b800;
+}
